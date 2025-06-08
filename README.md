@@ -48,3 +48,10 @@ x = 11
 
 result = derivative_ng_backward_verbose(nilai_X, nilai_Y, x0, x)
 print(f"\nHasil akhir turunan f'({x}) ≈ {result}")
+```
+R07
+Arya Raka F. (5053241007)
+Kelvin Aubert J. (5053241044)
+Syafiq Ahmad I. (5053241037)
+Arya Ramadhan (5053241033)
+M.Akbar Handoko B. (5053241023)
