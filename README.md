@@ -1,17 +1,17 @@
 # Newton-Gregory Backward Derivative (Turunan Mundur)
 
-Skrip Python ini digunakan untuk menghitung **turunan pertama** dari suatu fungsi menggunakan metode **Newton-Gregory Backward Difference**. Pendekatan ini berguna untuk melakukan estimasi turunan secara **numerik** dari data diskrit yang berada **dekat ujung kanan** tabel.
+Python ini digunakan untuk menghitung **turunan pertama** dari suatu fungsi menggunakan metode **Newton-Gregory Backward Difference**. Pendekatan ini berguna untuk melakukan estimasi turunan secara **numerik** dari data diskrit yang berada **dekat ujung kanan** tabel.
 
 ---
 
-## 📌 Tujuan
+##  Tujuan
 - Menghitung turunan pertama \( f'(x) \) dari sebuah fungsi yang nilai-nilainya diketahui secara diskrit (bukan rumus eksplisit).
 - Menggunakan pendekatan Newton-Gregory Backward hingga Δ⁴.
 - Menampilkan proses verbose atau langkah per langkah.
 
 ---
 
-## 📂 Struktur Fungsi
+##  Struktur Fungsi
 
 ### 1. `build_backward_deltaerence_table(nilai_X, nilai_Y)`
 Membangun tabel selisih mundur:
@@ -37,7 +37,7 @@ f'(x) = \frac{1}{h} \left[
 
 ---
 
-## 🧪 Contoh Penggunaan
+##  Contoh Penggunaan
 
 ```python
 nilai_X = [2, 4, 6, 8, 10, 12, 14, 16, 18]
